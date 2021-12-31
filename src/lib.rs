@@ -20,7 +20,7 @@ impl<'a> Ord for Person<'a> {
 
 impl<'a> PartialOrd for Person<'a> {
     fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
-        Some(self.cmp(other))
+        Some(self.rank.cmp(&other.rank))
     }
 }
 
