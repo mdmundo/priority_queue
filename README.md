@@ -1,0 +1,1 @@
+A priority queue implemented with a binary heap. Using examples from [BinaryHeap documentation](https://doc.rust-lang.org/std/collections/struct.BinaryHeap.html) and concepts covered in a [blog post](https://hermanradtke.com/2015/05/03/string-vs-str-in-rust-functions.html) by Herman J. Radtke.
